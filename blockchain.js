@@ -41,6 +41,8 @@ class Blockchain {
       console.error('The incoming chain must be valid')
       return;
     }
+
+    console.log('replacing chain with', chain)
     this.chain = chain;
   }
 }
